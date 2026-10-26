@@ -1,1 +1,16 @@
 
+# R environment files
+.Renviron
+.Rhistory
+.RData
+
+# RStudio files
+.Rproj.user/
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
