@@ -1,0 +1,361 @@
+year,country,hs2_code,product_group,export_value_usd
+2010,Germany,30,Pharmaceutical products,63752869913.971
+2010,Germany,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",221343168943.229
+2010,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",134931068394.138
+2010,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",203378737244.789
+2011,Germany,30,Pharmaceutical products,69041419876.042
+2011,Germany,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",261977941037.233
+2011,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",148727316606.654
+2011,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",247545183257.513
+2012,Germany,30,Pharmaceutical products,70387758972.165
+2012,Germany,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",245246443885.467
+2012,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",138383491645.319
+2012,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",235528645699.562
+2013,Germany,30,Pharmaceutical products,74817966856.395
+2013,Germany,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",250238898285.064
+2013,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",142979931440.179
+2013,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",243242057024.856
+2014,Germany,30,Pharmaceutical products,79703686463.968
+2014,Germany,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",256523584768.8
+2014,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",147300174083.81
+2014,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",259437100144.229
+2015,Germany,30,Pharmaceutical products,75777299205.11
+2015,Germany,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",222669148082.342
+2015,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",131456495130.169
+2015,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",241896644310.37
+2016,Germany,30,Pharmaceutical products,76366630559.058
+2016,Germany,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",221497757074.633
+2016,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",137615842647.668
+2016,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",244316055237.414
+2017,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",148588012042.244
+2017,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",256569956912.941
+2017,Germany,30,Pharmaceutical products,83365348013.502
+2017,Germany,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",245510161985.337
+2018,Germany,30,Pharmaceutical products,96944936152.454
+2018,Germany,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",273368555473.053
+2018,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",165339366194.59
+2018,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",264081162034.059
+2019,Germany,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",262422418622.346
+2019,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",159858627728.871
+2019,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",245290172968.895
+2019,Germany,30,Pharmaceutical products,91162651553.801
+2020,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",211310364787.092
+2020,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",153164901905.42
+2020,Germany,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",237557186235.998
+2020,Germany,30,Pharmaceutical products,99257538612.243
+2021,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",247206175328.873
+2021,Germany,30,Pharmaceutical products,119270057525.239
+2021,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",177487072779.82
+2021,Germany,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",269757063173.121
+2022,Germany,30,Pharmaceutical products,127490302513.011
+2022,Germany,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",258846988553.601
+2022,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",182112285358.736
+2022,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",263175733235.806
+2023,Germany,30,Pharmaceutical products,121301715485.669
+2023,Germany,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",277465027793.973
+2023,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",297611572900.781
+2023,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",192970587943.406
+2024,Germany,30,Pharmaceutical products,124871834553.553
+2024,Germany,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",285780721413.862
+2024,Germany,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",181887757614.278
+2024,Germany,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",271791366092.036
+2010,United States,30,Pharmaceutical products,40788229885
+2010,United States,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",182902860899
+2010,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",151776704354
+2010,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",99148692588
+2011,United States,30,Pharmaceutical products,38341460576
+2011,United States,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",205826159717
+2011,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",159468543383
+2011,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",120011780504
+2012,United States,30,Pharmaceutical products,40129282726
+2012,United States,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",215180487807
+2012,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",162434694242
+2012,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",133078052912
+2013,United States,30,Pharmaceutical products,39708540935
+2013,United States,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",213482188398
+2013,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",165841745974
+2013,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",134084551978
+2014,United States,30,Pharmaceutical products,43995519899
+2014,United States,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",219766258659
+2014,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",172368326841
+2014,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",135972388386
+2015,United States,30,Pharmaceutical products,47293310441
+2015,United States,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",206100142194
+2015,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",169956050124
+2015,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",127396967732
+2016,United States,30,Pharmaceutical products,46828627045
+2016,United States,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",190945120956
+2016,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",166964105033
+2016,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",124702176827
+2017,United States,30,Pharmaceutical products,44936430945
+2017,United States,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",202060699153
+2017,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",174299564120
+2017,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",130406803876
+2018,United States,30,Pharmaceutical products,48345552717
+2018,United States,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",213377247839
+2018,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",176302382688
+2018,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",130730673450
+2019,United States,30,Pharmaceutical products,53561670461
+2019,United States,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",205879700261
+2019,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",173185141484
+2019,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",133040763969
+2020,United States,30,Pharmaceutical products,53938940706
+2020,United States,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",182585530775
+2020,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",162884379108
+2020,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",105158056180
+2021,United States,30,Pharmaceutical products,77962125336
+2021,United States,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",209284552323
+2021,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",185404506941
+2021,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",122202361060
+2022,United States,30,Pharmaceutical products,83492754665
+2022,United States,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",229594064757
+2022,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",197748996567
+2022,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",134886248740
+2023,United States,30,Pharmaceutical products,90308212767
+2023,United States,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",233009958652
+2023,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",200654688507
+2023,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",152826672481
+2024,United States,30,Pharmaceutical products,94386913659
+2024,United States,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",252426810370
+2024,United States,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",213920377535
+2024,United States,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",143765553479
+2010,China,30,Pharmaceutical products,4482156359
+2010,China,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",309813671701
+2010,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",388755009575
+2010,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",38397962276
+2011,China,30,Pharmaceutical products,5421337901
+2011,China,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",353763873477
+2011,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",445756705006
+2011,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",49539445418
+2012,China,30,Pharmaceutical products,5890832733
+2012,China,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",375899473245
+2012,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",487322453518
+2012,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",55117129196
+2013,China,30,Pharmaceutical products,6207562235
+2013,China,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",383152557937
+2013,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",561288340171
+2013,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",58549754177
+2014,China,30,Pharmaceutical products,6591591943
+2014,China,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",400834160171
+2014,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",570924485664
+2014,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",64192712762
+2015,China,30,Pharmaceutical products,6940730995
+2015,China,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",364276141584
+2015,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",594325410786
+2015,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",62600002447
+2016,China,30,Pharmaceutical products,7011521915
+2016,China,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",343770528509
+2016,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",553168922135
+2016,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",60145135152
+2017,China,30,Pharmaceutical products,7364201099
+2017,China,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",383243543186
+2017,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",598325186484
+2017,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",67263139542
+2018,China,30,Pharmaceutical products,8870327569
+2018,China,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",429308923605
+2018,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",664051842988
+2018,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",75073448127
+2019,China,30,Pharmaceutical products,9168364351
+2019,China,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",416636764528
+2019,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",670448477970
+2019,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",74305755660
+2020,China,30,Pharmaceutical products,13207628725
+2020,China,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",440020920057
+2020,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",709932703748
+2020,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",76223937652
+2021,China,30,Pharmaceutical products,38545057952
+2021,China,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",544333917026
+2021,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",890226492067
+2021,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",119339096936
+2022,China,30,Pharmaceutical products,14004896410
+2022,China,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",551950811471
+2022,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",954783811680
+2022,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",150235439612
+2023,China,30,Pharmaceutical products,11283730462
+2023,China,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",510620751739
+2023,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",896418621480
+2023,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",192497286190
+2024,China,30,Pharmaceutical products,12201630085
+2024,China,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",568085592910
+2024,China,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",927094995925
+2024,China,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",215979240143
+2010,Japan,30,Pharmaceutical products,3608188030
+2010,Japan,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",149983651972
+2010,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",131394318719
+2010,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",146752176302
+2011,Japan,30,Pharmaceutical products,3806890862
+2011,Japan,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",171275654470
+2011,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",129538857142
+2011,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",148057285815
+2012,Japan,30,Pharmaceutical products,3391460927
+2012,Japan,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",158868911916
+2012,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",125888527620
+2012,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",162912237093
+2013,Japan,30,Pharmaceutical products,3243026863
+2013,Japan,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",135210901829
+2013,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",108269704740
+2013,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",148549339490
+2014,Japan,30,Pharmaceutical products,2922619180
+2014,Japan,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",132442708992
+2014,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",104055254008
+2014,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",142513899118
+2015,Japan,30,Pharmaceutical products,3409771753
+2015,Japan,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",117641750139
+2015,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",95606834469
+2015,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",134041242741
+2016,Japan,30,Pharmaceutical products,4064045834
+2016,Japan,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",123979702084
+2016,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",98151189242
+2016,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",141798537822
+2017,Japan,30,Pharmaceutical products,4556714828.803
+2017,Japan,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",138403852125.67
+2017,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",105553813807.134
+2017,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",146235261629.788
+2018,Japan,30,Pharmaceutical products,5545570971.301
+2018,Japan,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",147924925661.864
+2018,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",109412944192.983
+2018,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",154065458376.126
+2019,Japan,30,Pharmaceutical products,6369035717.903
+2019,Japan,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",137046931787.773
+2019,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",103011213712.488
+2019,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",148807656468.993
+2020,Japan,30,Pharmaceutical products,7508561700.696
+2020,Japan,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",121726877114.287
+2020,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",102554256405.843
+2020,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",122541546962.832
+2021,Japan,30,Pharmaceutical products,7568639961.184
+2021,Japan,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",147305237372.438
+2021,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",118923309227.911
+2021,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",137837484232.021
+2022,Japan,30,Pharmaceutical products,7440118538.35
+2022,Japan,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",141799186239.425
+2022,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",113343077457.223
+2022,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",135704150095.248
+2023,Japan,30,Pharmaceutical products,7645482395.394
+2023,Japan,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",129762940210.67
+2023,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",101716864830.496
+2023,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",156614834396.574
+2024,Japan,30,Pharmaceutical products,7728570555.89
+2024,Japan,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",125733121347.215
+2024,Japan,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",101050737863.837
+2024,Japan,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",150889774289.618
+2010,South Korea,30,Pharmaceutical products,903038787
+2010,South Korea,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",52030741950
+2010,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",110789265977
+2010,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",53445486945
+2011,South Korea,30,Pharmaceutical products,1001072623
+2011,South Korea,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",59658651909
+2011,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",118542862472
+2011,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",67096998404
+2012,South Korea,30,Pharmaceutical products,1181642484
+2012,South Korea,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",58979883076
+2012,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",119084385606
+2012,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",70074094361
+2013,South Korea,30,Pharmaceutical products,1243125359
+2013,South Korea,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",59318362675
+2013,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",135497123313
+2013,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",72771812973
+2014,South Korea,30,Pharmaceutical products,1473767207
+2014,South Korea,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",63051129623
+2014,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",138234071151
+2014,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",73343529722
+2015,South Korea,30,Pharmaceutical products,1961136458
+2015,South Korea,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",62125047931
+2015,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",138349012858
+2015,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",69023582532
+2016,South Korea,30,Pharmaceutical products,2405216998
+2016,South Korea,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",58228652960
+2016,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",134286758737
+2016,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",62651437860
+2017,South Korea,30,Pharmaceutical products,2894535134
+2017,South Korea,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",69309971807
+2017,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",163060810755
+2017,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",61918872991
+2018,South Korea,30,Pharmaceutical products,3479021240
+2018,South Korea,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",77651369348
+2018,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",184588192112
+2018,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",61171471704
+2019,South Korea,30,Pharmaceutical products,3922550669
+2019,South Korea,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",70903773896
+2019,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",153629451349
+2019,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",62862613152
+2020,South Korea,30,Pharmaceutical products,6903416415
+2020,South Korea,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",67867220096
+2020,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",159632110977
+2020,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",54141767638
+2021,South Korea,30,Pharmaceutical products,8438420883
+2021,South Korea,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",75984350980
+2021,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",200777707497
+2021,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",67013035758
+2022,South Korea,30,Pharmaceutical products,6632070544
+2022,South Korea,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",73033188782
+2022,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",210434593813
+2022,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",75619404400
+2023,South Korea,30,Pharmaceutical products,6203424508
+2023,South Korea,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",72756922843
+2023,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",171301417555
+2023,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",91830144315
+2024,South Korea,30,Pharmaceutical products,7950099548
+2024,South Korea,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",80448666744
+2024,South Korea,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",212908543878
+2024,South Korea,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",91869338623
+2010,France,30,Pharmaceutical products,33536738166
+2010,France,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",58802021120
+2010,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",43487884284
+2010,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",47147795901
+2011,France,30,Pharmaceutical products,33150017978
+2011,France,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",66551326555
+2011,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",47901632817
+2011,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",53925753074
+2012,France,30,Pharmaceutical products,34928216967
+2012,France,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",64321858759
+2012,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",44547463333
+2012,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",47435091734
+2013,France,30,Pharmaceutical products,37047762179
+2013,France,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",65193099285
+2013,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",44769529555
+2013,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",46542936783
+2014,France,30,Pharmaceutical products,35160831198
+2014,France,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",66285536656
+2014,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",44036244244
+2014,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",47618291633
+2015,France,30,Pharmaceutical products,29893562266
+2015,France,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",56899579418
+2015,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",39489916234
+2015,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",43720973056
+2016,France,30,Pharmaceutical products,30126331008
+2016,France,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",57320215698
+2016,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",39173170195
+2016,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",45382766347
+2017,France,30,Pharmaceutical products,31407170283.239
+2017,France,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",60791534011.482
+2017,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",41826957101.865
+2017,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",51058254602.842
+2018,France,30,Pharmaceutical products,33851774643.032
+2018,France,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",67687070315.01
+2018,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",44880309826.739
+2018,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",56426007206.192
+2019,France,30,Pharmaceutical products,35614058555.839
+2019,France,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",67331695586.101
+2019,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",43506110116.087
+2019,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",52817549290.134
+2020,France,30,Pharmaceutical products,37976994642.514
+2020,France,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",55444247896.932
+2020,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",39192811266.496
+2020,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",44487976328.973
+2021,France,30,Pharmaceutical products,39095040461.195
+2021,France,84,"Nuclear reactors, boilers, machinery and mechanical appliances; parts thereof",63350197145.456
+2021,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",45237281065.589
+2021,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",51150140631.048
+2022,France,30,Pharmaceutical products,37905004272.322
+2022,France,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",65144455775.275
+2022,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",47333535481.669
+2022,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",50023917502.315
+2023,France,30,Pharmaceutical products,38367750061.281
+2023,France,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",74706563027.058
+2023,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",50311995692.165
+2023,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",61023089490.445
+2024,France,30,Pharmaceutical products,38770805089.152
+2024,France,84,"Machinery and mechanical appliances, boilers, nuclear reactors; parts thereof",73965262796.547
+2024,France,85,"Electrical machinery and equipment and parts thereof; sound recorders and reproducers; television image and sound recorders and reproducers, parts and accessories of such articles",47210079309.467
+2024,France,87,"Vehicles; other than railway or tramway rolling stock, and parts and accessories thereof",55597979748.343

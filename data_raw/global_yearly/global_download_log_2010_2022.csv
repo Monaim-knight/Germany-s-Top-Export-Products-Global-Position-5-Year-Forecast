@@ -1,0 +1,14 @@
+year,status,rows,file_path
+2010,downloaded,668,data_raw/global_yearly/global_exports_2010_raw.csv
+2011,downloaded,659,data_raw/global_yearly/global_exports_2011_raw.csv
+2012,downloaded,663,data_raw/global_yearly/global_exports_2012_raw.csv
+2013,downloaded,663,data_raw/global_yearly/global_exports_2013_raw.csv
+2014,downloaded,663,data_raw/global_yearly/global_exports_2014_raw.csv
+2015,downloaded,674,data_raw/global_yearly/global_exports_2015_raw.csv
+2016,downloaded,681,data_raw/global_yearly/global_exports_2016_raw.csv
+2017,downloaded,696,data_raw/global_yearly/global_exports_2017_raw.csv
+2018,downloaded,683,data_raw/global_yearly/global_exports_2018_raw.csv
+2019,downloaded,670,data_raw/global_yearly/global_exports_2019_raw.csv
+2020,downloaded,662,data_raw/global_yearly/global_exports_2020_raw.csv
+2021,downloaded,665,data_raw/global_yearly/global_exports_2021_raw.csv
+2022,downloaded,656,data_raw/global_yearly/global_exports_2022_raw.csv

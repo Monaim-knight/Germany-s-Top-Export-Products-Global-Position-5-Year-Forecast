@@ -1,0 +1,5 @@
+hs2_code,product_group,germany_cagr_pct,competitor_average_cagr_pct,competitor_median_cagr_pct,fastest_competitor,fastest_competitor_cagr_pct,cagr_gap_vs_competitor_average_pct_points,cagr_gap_vs_fastest_competitor_pct_points,germany_growth_position
+30,Pharmaceutical products,4.919116579531346,7.406669145520088,6.176137728182174,South Korea,16.80895925118977,-2.487552565988742,-11.889842671658425,Below competitor average
+84,Machinery and mechanical appliances,1.477381525969701,2.0631594798849195,2.327868357314755,China,4.4258659839851555,-0.5857779539152186,-2.9484844580154546,Below competitor average
+85,Electrical machinery and equipment,2.1559529137612055,2.4786152426462893,2.481675454511767,China,6.404645330782999,-0.32266232888508384,-4.248692417021793,Below competitor average
+87,Vehicles and parts,2.459434799901117,4.229663140339172,2.6895557211372267,China,13.130275591930584,-1.770228340438055,-10.670840792029466,Below competitor average

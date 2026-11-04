@@ -1,16 +1,8 @@
-
-# R environment files
-.Renviron
+.Rproj.user
 .Rhistory
 .RData
+.Ruserdata
 
-# RStudio files
-.Rproj.user/
-
-# Temporary files
-*.tmp
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
+# Local and generated files
+germany_export_project_backup.RData
+screenshots/

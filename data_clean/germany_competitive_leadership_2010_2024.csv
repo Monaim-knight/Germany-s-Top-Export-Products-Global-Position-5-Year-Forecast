@@ -1,0 +1,5 @@
+hs2_code,product_group,years_germany_leads,years_competitor_leads,total_years,leadership_rate,leadership_rate_pct,latest_leadership_status,latest_leading_competitor
+30,Pharmaceutical products,15,0,15,1,100,Germany leads,United States
+84,Machinery and mechanical appliances,0,15,15,0,0,Competitor leads,China
+85,Electrical machinery and equipment,0,15,15,0,0,Competitor leads,China
+87,Vehicles and parts,15,0,15,1,100,Germany leads,China

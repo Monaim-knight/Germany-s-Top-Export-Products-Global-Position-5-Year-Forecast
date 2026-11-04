@@ -1,247 +1,455 @@
-# Germany-s-Top-Export-Products-Global-Position-5-Year-Forecast
-This project analyzes **Germany’s top 3–4 export product groups by revenue** and evaluates how their global competitive position may evolve over the next **five years**, compared with major trade competitors: **USA, China, and a selected “Others” group** (e.g. Japan, South Korea, France).
+# Germany Export Competitiveness Analytics & Forecasting
 
-The project is implemented using:
+## Project Overview
 
-- **R** for data ingestion, cleaning, analysis, and forecasting  
-- **MySQL** as the analytical data store  
-- **Tableau** for interactive dashboards and visual storytelling  
+This end-to-end analytics project evaluates Germany's export competitiveness across four strategically important HS2 product groups and develops a forward-looking view of export performance through 2029.
 
-The goal is to demonstrate a complete, senior‑level analytics workflow:
+The project combines **R, MySQL, time-series forecasting, competitive benchmarking, data validation, and Tableau** to answer three levels of business questions:
 
-- Data collection from authoritative global trade sources  
-- Reproducible data pipeline (R + MySQL)  
-- Comparative analysis of export structure and market share  
-- Time‑series forecasting of export values and global rankings  
-- Business‑oriented reporting and dashboards
+1. What is Germany's overall export outlook through 2029?
+2. How does Germany compare with major global competitors?
+3. What happens when an individual strategic export sector is analyzed in detail?
 
----
+The final analytical solution consists of three interconnected Tableau dashboards:
 
-## 2. Research questions
+- **Germany Export Outlook**
+- **Global Competitive Position**
+- **Sector Deep Dive**
 
-**RQ1 — Current position**  
-What are Germany’s **top 3–4 export product groups** by revenue in the most recent year?
-
-**RQ2 — Competitive comparison**  
-How do these product groups compare with **USA, China, and Others** in terms of:
-
-- Export value  
-- Market share  
-- Growth trends  
-- Global ranking  
-
-**RQ3 — Forecasting (5‑year outlook)**  
-Using historical trade data, what will be the **export value and market share** of these product groups in **five years**?
-
-**RQ4 — Strategic insight**  
-Will Germany’s position **strengthen, weaken, or remain stable** compared to its competitors?
+The project demonstrates a complete analytics workflow, from raw trade data and validation through forecasting, database preparation, competitive analysis, and interactive visualization.
 
 ---
 
-## 3. Data sources
 
-### 3.1 Primary trade data
 
-- **UN Comtrade** – annual exports by HS code (country, product, value)  
-- **WTO Statistics Database** – trade by product group and country  
-- **Destatis (Germany)** – detailed German export structure  
-- **Country‑specific sources** (e.g. US Census, China Customs) where needed
+## Business Questions
 
-### 3.2 Supporting macro data
-
-- **World Bank** – GDP, exchange rates, macro indicators  
-- **OECD** – trade and industrial indicators
+- What is Germany's export outlook through 2029?
+- Which strategic export sectors have the strongest growth prospects?
+- How does projected performance differ across sectors?
+- How does Germany compare with major international competitors?
+- In which sectors does Germany hold the strongest competitive position?
+- How does competitive position change through the forecast horizon?
+- How does the competitive landscape change when individual sectors are analyzed separately?
 
 ---
 
-## 4. Data collection plan
 
-### 4.1 Product classification
 
-- Use **HS 2‑digit** (or HS 4‑digit) codes for product groups  
-- Map HS codes to high‑level product categories (e.g. Vehicles, Machinery, Pharmaceuticals, Electrical equipment)
+## Strategic Export Sectors
 
-### 4.2 Time horizon
 
-- Annual data from **2010–2024** (or latest available year)  
-- Forecast horizon: **+5 years** (e.g. to 2029/2030)
+| HS2 | Product Group                       |
+| --- | ----------------------------------- |
+| 30  | Pharmaceutical products             |
+| 84  | Machinery and mechanical appliances |
+| 85  | Electrical machinery and equipment  |
+| 87  | Vehicles and parts                  |
 
-### 4.3 Raw data files
-
-All raw files are stored under `data_raw/`:
-
-- `germany_exports_raw.csv`  
-- `usa_exports_raw.csv`  
-- `china_exports_raw.csv`  
-- `others_exports_raw.csv`  
-- `macro_data_raw.csv`
 
 ---
 
-## 5. Data pipeline design (R + MySQL)
 
-### 5.1 Overview
 
-The pipeline is implemented in R and persists cleaned, structured data into **MySQL** for downstream analysis and Tableau dashboards.
+## Technology Stack
 
-**Stages:**
 
-1. **Ingestion** – read raw CSVs into R  
-2. **Standardization** – harmonize schema and units  
-3. **Cleaning** – handle missing values, duplicates, and invalid codes  
-4. **Integration** – build a unified master table across countries  
-5. **Feature engineering** – compute growth, market share, and rankings  
-6. **Forecasting preparation** – create time‑series structures per country/product  
-7. **Export to MySQL** – store analysis‑ready tables for Tableau
 
-### 5.2 Core tables (MySQL)
+### R
 
-- `trade_raw`  
-  - Raw records from all sources (minimal transformation)
+- Trade-data extraction
+- Data cleaning and transformation
+- Validation
+- Feature engineering
+- Historical analysis
+- Time-series preparation
+- Forecasting
+- Competitor analysis
+- Tableau-ready dataset creation
 
-- `trade_master`  
-  - `year`, `country`, `hs_code`, `product_group`, `export_value_usd`
 
-- `top_products_by_country_year`  
-  - Filtered to Germany’s top 3–4 product groups, with export value, market share, and rank
 
-- `growth_trends`  
-  - Year‑over‑year growth per country and product group
+### MySQL
 
-- `forecast_results`  
-  - Historical + forecasted export values, market share, and future rank
+- Structured analytical data storage
+- Cleaned analytical tables
+- Forecast and competitor-position tables
+- Tableau-ready data access
 
----
 
-## 6. Data cleaning and transformation
 
-### 6.1 Standardization
+### Tableau
 
-- **Column naming:**  
-  - Standard columns: `year`, `country`, `hs_code`, `product_description`, `export_value`, `currency`
-
-- **Currency conversion:**  
-  - Convert all export values to **USD** using yearly average exchange rates (from macro data)
-
-- **Product grouping:**  
-  - Map HS codes to `product_group` (e.g. Vehicles, Machinery, Chemicals/Pharma, Electrical equipment)
-
-### 6.2 Cleaning rules
-
-- Remove rows with missing `year`, `country`, or `hs_code`  
-- Drop or flag records with missing `export_value` (depending on share of missingness)  
-- Remove exact duplicates (same year, country, hs_code, value)  
-- Validate HS codes against official HS lists
-
-### 6.3 Identifying Germany’s top export products
-
-1. Filter `country = "Germany"` and latest year  
-2. Group by `product_group` and sum `export_value_usd`  
-3. Sort descending and select **top 3–4 product groups**  
-4. Use this set of product groups to filter the master dataset for comparative analysis
+- KPI development
+- Forecast visualization
+- Competitor benchmarking
+- Competitive-rank analysis
+- Parameter-driven sector exploration
+- Interactive tooltips
+- Cross-dashboard navigation
+- Analytical storytelling
 
 ---
 
-## 7. Analysis methodology (R)
 
-### 7.1 Descriptive analysis
 
-For each selected product group:
+## Analytical Workflow
 
-- **Current year metrics:**
-  - Export value (USD)  
-  - Market share (country export / world export)  
-  - Global rank among all countries
+1. Data extraction
+2. Data cleaning and standardization
+3. HS2 sector preparation
+4. Historical trade-data validation
+5. Global market-position analysis
+6. MySQL data loading
+7. Feature engineering
+8. Time-series preparation
+9. Forecast-model evaluation
+10. 2025-2029 forecast generation
+11. Competitor benchmarking
+12. Competitive-position analysis
+13. Tableau relationship validation
+14. KPI construction
+15. Analytical visualization
+16. Interactive dashboard development
+17. Final QA and portfolio preparation
 
-- **Historical trends (2010–2024):**
-  - Export value over time  
-  - Market share over time  
-  - Rank evolution
-
-### 7.2 Forecasting (5‑year outlook)
-
-- **Models:**  
-  - ARIMA / ETS (via `forecast` or `fable` packages in R)  
-- **Per time series:**  
-  - One model per `country + product_group`  
-- **Outputs:**  
-  - Forecasted export value (next 5 years)  
-  - Forecasted world total per product group  
-  - Forecasted market share and rank
-
-### 7.3 Interpretation
-
-- Compare Germany’s projected position vs USA, China, and Others  
-- Identify product groups where Germany is likely to:
-  - Maintain leadership  
-  - Lose ground  
-  - Gain share
+Forecast candidates included **Naive, Drift, and ETS** approaches, with model evaluation performed before generating the final 2025-2029 projections.
 
 ---
 
-## 8. Dashboards (Tableau)
 
-### 8.1 Data source
 
-- Tableau connects directly to **MySQL** tables:
-  - `trade_master`  
-  - `top_products_by_country_year`  
-  - `forecast_results`
+# Tableau Dashboard Suite
 
-### 8.2 Dashboard concepts
 
-1. **Global export overview**
-   - Export value by country and product group  
-   - Map of market share by country  
 
-2. **Germany vs competitors**
-   - Side‑by‑side comparison of Germany, USA, China, Others  
-   - Time‑series of export value and market share  
+## 1. Germany Export Outlook
 
-3. **Forecast & future ranking**
-   - Historical + forecasted export values  
-   - Rank changes over time  
-   - Market share projections
+**Business question:** What does Germany's export outlook look like through 2029, and which sectors are driving the outlook?
+
+### Key KPIs
+
+- **2029 Export Value:** approximately **$910.5B**
+- **Average Forecast Growth:** approximately **3.83%**
+- **Fastest-Growing Sector:** **Vehicles and parts**
+- **Average Projected Rank (2029):** approximately **2.1**
+
+
+
+### Analytical Views
+
+- Germany export forecasts by sector
+- Forecast-growth comparison
+- Projected competitive position by sector
+- Germany versus major global competitors
+
+![Germany Export Outlook](vscode-file://vscode-app/c:/Users/monai/OneDrive/Downloads/screenshots/germany_export_outlook.png)
 
 ---
 
-## 9. Repository structure
+
+
+## 2. Global Competitive Position
+
+**Business question:** Where does Germany stand relative to major international competitors?
+
+### Analytical Views
+
+- Projected export value by global competitor
+- Competitive ranking by sector and country
+- Competitive-rank movement through 2029
+- Germany's sector-level competitive position
+
+
+
+### Key Findings
+
+- **China** emerges as the leading global competitor in the 2029 projection.
+- Germany's competitive strength varies across sectors.
+- Germany reaches projected **Rank #1** in **Pharmaceutical products** and **Vehicles and parts**.
+
+![Global Competitive Position](vscode-file://vscode-app/c:/Users/monai/OneDrive/Downloads/screenshots/global_competitive_position.png)
+
+---
+
+
+
+## 3. Sector Deep Dive
+
+**Business question:** What happens when an analyst investigates one strategic export sector individually?
+
+The dashboard uses a shared **Select Product Group** parameter to switch between the four strategic export sectors while synchronizing KPIs and analytical charts across multiple logical tables.
+
+### Dynamic KPIs
+
+- 2029 projected export value
+- Forecast growth
+- Projected competitive rank
+- Competitive-position change
+
+
+
+### Analytical Views
+
+- Sector export forecast, 2025-2029
+- Selected sector versus global competitors
+- Competitive-rank movement
+- Competitive position by country in 2029
+
+![Sector Deep Dive](vscode-file://vscode-app/c:/Users/monai/OneDrive/Downloads/screenshots/sector_deep_dive.png)
+
+---
+
+
+
+# Key Analytical Insights
+
+
+
+## 1. Germany's Strategic Export Portfolio Remains Substantial
+
+The four analyzed strategic export sectors collectively reach approximately **$910.5B in projected exports by 2029**.
+
+## 2. Aggregate Growth Masks Significant Sector Differences
+
+Average forecast growth across the analyzed sectors is approximately **3.83%**, but sector-level performance varies considerably.
+
+## 3. Vehicles and Parts Provides the Strongest Growth Story
+
+**Vehicles and parts** records approximately **8.07% forecast growth** and reaches approximately **$315.2B in projected export value in 2029**.
+
+## 4. Electrical Machinery Is Another Major Growth Driver
+
+**Electrical machinery and equipment** records approximately **7.24% forecast growth**, with projected 2029 exports of approximately **$198.7B**.
+
+## 5. Growth Alone Does Not Define Competitiveness
+
+The project combines export value, forecast growth, competitor benchmarking, projected competitive rank, and competitive-position movement to provide a broader assessment of performance.
+
+## 6. Germany's Competitive Position Is Sector-Dependent
+
+Germany reaches projected **Rank #1** in **Pharmaceutical products** and **Vehicles and parts**, while other analyzed sectors occupy weaker projected positions.
+
+## 7. China Is the Central International Benchmark
+
+The international competitor analysis identifies **China** as the leading global competitor in the 2029 projection.
+
+---
+
+
+
+# Example Sector Deep Dive: Vehicles and Parts
+
+- **2029 Projected Export Value:** approximately **$315.2B**
+- **Forecast Growth:** approximately **8.07%**
+- **Projected Competitive Rank:** **#1**
+- **Competitive-Position Direction:** **Stable**
+
+---
+
+
+
+# Interactive Analytics
+
+
+
+## Cross-Dashboard Navigation
+
+The Tableau workbook provides direct navigation between:
+
+**Germany Export Outlook -> Global Competitive Position -> Sector Deep Dive**
+
+## Parameter-Driven Sector Analysis
+
+The Sector Deep Dive uses a shared **Select Product Group** parameter. Table-specific Boolean calculations connect the relevant Product Group fields to the same parameter so one selection synchronizes the full dashboard.
+
+## Interactive Tooltips
+
+Tooltips provide contextual information including year, projected export value, competitor country, competitive rank, and sector context.
+
+---
+
+
+
+# Data Validation & Quality Assurance
+
+Quality checks included:
+
+- HS2 sector consistency
+- Standardized relationship-key data types
+- Year coverage
+- Missing-value checks
+- Duplicate checks
+- Export-value validation
+- Competitor-projection validation
+- Competitive-rank validation
+- Tableau relationship validation
+- KPI aggregation checks
+- Percentage-format validation
+- Parameter behavior across logical tables
+- Tooltip validation
+- Cross-dashboard consistency
+
+Dedicated **Validation & QA** worksheets are retained in the Tableau workbook.
+
+---
+
+
+
+# Dashboard Design Principles
+
+- Fixed **1400 x 900** dashboard dimensions
+- Executive KPI cards
+- Restrained professional color palette
+- Germany highlighted consistently in competitor analysis
+- Subdued competitor colors
+- Simplified gridlines and axes
+- Consistent typography
+- Contextual tooltips
+- Compact controls
+- Dashboard-to-dashboard navigation
+- White analytical cards on a light dashboard background
+
+---
+
+
+
+# Project Structure
 
 ```text
-germany-export-forecast/
-│
-├── data_raw/
-│   ├── germany_exports_raw.csv
-│   ├── usa_exports_raw.csv
-│   ├── china_exports_raw.csv
-│   ├── others_exports_raw.csv
-│   └── macro_data_raw.csv
-│
-├── data_clean/
-│   ├── trade_master.csv
-│   ├── top_products_by_country_year.csv
-│   ├── growth_trends.csv
-│   └── forecast_results.csv
-│
-├── R/
-│   ├── 01_data_ingestion.R
-│   ├── 02_cleaning_transformation.R
-│   ├── 03_eda_analysis.R
-│   ├── 04_forecasting.R
-│   └── 05_export_to_mysql.R
-│
-├── notebooks/
-│   ├── 01_data_ingestion.Rmd
-│   ├── 02_cleaning_transformation.Rmd
-│   ├── 03_eda_analysis.Rmd
-│   ├── 04_forecasting.Rmd
-│   └── 05_reporting.Rmd
-│
-├── dashboards/
-│   └── tableau_dashboard.twbx
-│
-├── docs/
-│   ├── final_report.pdf
-│   └── hs_code_mapping.csv
-│
-└── README.md
+Germany-s-Top-Export-Products-Global-Position-5-Year-Forecast/
+|-- README.md
+|-- Exports.Rproj
+|-- R/
+|   `-- R_validation_functions.R
+|-- data_raw/
+|   |-- 00_data_extraction.R
+|   |-- R_01_data_cleaning.R
+|   |-- R_02_data_validation.R
+|   |-- R_03_global_data_cleaning.R
+|   |-- R_03_global_market_position.R
+|   |-- R_04_mysql_load.R
+|   `-- R_05_feature_engineering.R
+|-- data_clean/
+|   |-- historical analytical datasets
+|   |-- validation outputs
+|   |-- forecast datasets
+|   |-- competitor projections
+|   `-- Tableau-ready data
+|-- dashboards/
+|   `-- germany_export_competitiveness.twb
+|-- screenshots/
+|   |-- germany_export_outlook.png
+|   |-- global_competitive_position.png
+|   `-- sector_deep_dive.png
+|-- docs/
+`-- notebooks/
+```
+
+---
+
+
+
+# Key Tableau-Ready Datasets
+
+- `germany_export_forecasts_2025_2029.csv`
+- `germany_competitive_position_2025_2029.csv`
+- `competitor_position_projection_2025_2029.csv`
+- `germany_position_summary_2025_2029.csv`
+- `global_market_position_2010_2024.csv`
+- `sector_lookup.csv`
+
+---
+
+
+
+# Skills Demonstrated
+
+
+
+## Data Analytics
+
+- Data cleaning and transformation
+- Exploratory and historical analysis
+- KPI development
+- Data validation
+- Business interpretation
+- Competitor benchmarking
+
+
+
+## R
+
+- Data manipulation
+- Trade-data processing
+- Validation functions
+- Feature engineering
+- Historical analysis
+- Time-series preparation
+- Forecasting
+
+
+
+## SQL / MySQL
+
+- Analytical data storage
+- MySQL data loading
+- Table preparation
+- Analytical data modeling
+- Validation workflow
+
+
+
+## Tableau
+
+- Logical data modeling
+- KPI design
+- Forecast visualization
+- Competitor benchmarking
+- Calculated fields
+- Parameter-driven interaction
+- Cross-table dashboard synchronization
+- Interactive tooltips
+- Navigation objects
+- Dashboard UX
+- Analytical storytelling
+
+---
+
+
+
+# Repository Highlights
+
+- **Tableau workbook:** `dashboards/germany_export_competitiveness.twb`
+- **Dashboard screenshots:** `screenshots/`
+- **Processed analytical data:** `data_clean/`
+- **Raw data and R pipeline:** `data_raw/`
+
+---
+
+
+
+# Conclusion
+
+This project demonstrates an end-to-end approach to **export competitiveness analytics**, moving beyond descriptive reporting toward forecasting, international benchmarking, and interactive decision support.
+
+The analysis shows that Germany's overall export outlook remains substantial, while growth and competitive positions vary significantly across sectors.
+
+The final Tableau solution follows a three-stage analytical flow:
+
+**Executive Outlook -> Global Competitive Landscape -> Sector-Level Deep Dive**
+
+This structure provides both high-level decision support and the ability to investigate the individual sectors driving Germany's projected export performance.
+
+---
+
+
+
+# Author
+
+**Monaim**
+
+Data Analytics | R | MySQL | Tableau
+
+GitHub: [https://github.com/Mon](https://github.com/Monaim-knight)
+
